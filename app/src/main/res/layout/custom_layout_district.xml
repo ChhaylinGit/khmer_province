@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="80sp"
+    android:layout_marginLeft="10sp"
+    android:layout_marginRight="10sp"
+    android:layout_marginTop="5sp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="5sp"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimary" />
+
+    <TextView
+        android:id="@+id/tvDistrictNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/khmerosbattambang"
+        android:text="1."
+        android:layout_centerInParent="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="15sp"
+        android:textSize="16sp"
+        android:textColor="@color/colorPrimary"/>
+
+    <TextView
+        android:id="@+id/tvDistrictName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="aaaaaaaaaaa"
+        android:layout_marginLeft="10sp"
+        android:layout_toRightOf="@id/tvDistrictNo"
+        android:fontFamily="@font/khmerosbattambang"
+        android:layout_marginTop="10sp"
+        android:textSize="16sp"
+        android:textColor="@color/colorPrimary"/>
+
+    <TextView
+        android:id="@+id/tvNumberOfDistrict"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="09876"
+        android:gravity="center"
+        android:layout_toRightOf="@id/tvDistrictNo"
+        android:layout_below="@id/tvDistrictName"
+        android:textSize="14sp"
+        android:layout_marginLeft="11sp"
+        android:fontFamily="@font/khmerosbattambang"
+        android:layout_marginTop="5sp"/>
+
+        <TextView
+            android:id="@+id/tvSlas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="/"
+            android:gravity="center"
+            android:layout_toRightOf="@id/tvNumberOfDistrict"
+            android:layout_below="@id/tvDistrictName"
+            android:layout_marginRight="5sp"
+            android:textSize="14sp"
+            android:layout_marginLeft="5sp"
+            android:fontFamily="@font/khmerosbattambang"
+            android:layout_marginTop="5sp"/>
+
+        <TextView
+            android:id="@+id/tvNumberOfVillage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="09876"
+            android:gravity="center"
+            android:layout_toRightOf="@id/tvSlas"
+            android:layout_below="@id/tvDistrictName"
+            android:layout_marginRight="5sp"
+            android:textSize="14sp"
+            android:fontFamily="@font/khmerosbattambang"
+            android:layout_marginTop="5sp"/>
+
+    <ImageView
+        android:id="@+id/imgNext"
+        android:layout_width="50sp"
+        android:layout_height="match_parent"
+        app:srcCompat="@drawable/ic_chevron_right_black_24dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:scaleType="center"/>
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

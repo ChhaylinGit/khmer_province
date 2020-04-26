@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "515716125844",
+    "firebase_url": "https://khmerprovince-54fe1.firebaseio.com",
+    "project_id": "khmerprovince-54fe1",
+    "storage_bucket": "khmerprovince-54fe1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:515716125844:android:bce564ee6deebd2c",
+        "android_client_info": {
+          "package_name": "com.example.khmerprovince"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "515716125844-978inptvnjk4nu93prgqiqvaifrnns22.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.khmerprovince",
+            "certificate_hash": "7b0fddb16d8e2a48885c388b6d1793ac4d537334"
+          }
+        },
+        {
+          "client_id": "515716125844-hju7u4cppgr29tm5itihd8747clc0as3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.khmerprovince",
+            "certificate_hash": "0bd0a524bb7e4e66e7b4753c0606b6a9251f9657"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcLt_CAE3ysnSPoj-oR7_920cytZE7rXA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "515716125844-r67pttqf218cthkh9hima8h4r9ivd3kp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:515716125844:android:c0e7822fd9ebf1c7",
+        "android_client_info": {
+          "package_name": "com.gmail.thong.sophal.nssfsearchben"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcLt_CAE3ysnSPoj-oR7_920cytZE7rXA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "515716125844-r67pttqf218cthkh9hima8h4r9ivd3kp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-6502223369713756~5160362887"
+    }
+  ],
+  "configuration_version": "1"
+}
